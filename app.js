@@ -17,8 +17,6 @@ selectClientOptions.addEventListener('click', (e) =>
 searchUserForm.addEventListener('submit', e =>
 {
     const userText = document.getElementById('username').value;
-    console.log(userText);
-    
     let client_id = clientId.value,
         client_secret = clientSecret.value;
 
